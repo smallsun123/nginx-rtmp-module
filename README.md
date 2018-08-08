@@ -5,6 +5,7 @@ nginx-rtmp-module  hls-cache command nginx -s sbuf to clear cachebuffer
 # NGINX-based Media Streaming Server
 ## nginx-rtmp-module
 
+[![GitHub version](https://badge.fury.io/gh/smallsun123%2Fnginx-rtmp-module.svg)](https://badge.fury.io/gh/smallsun123%2Fnginx-rtmp-module)
 
 ### Project blog
 
