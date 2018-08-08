@@ -304,9 +304,7 @@ ngx_rtmp_recv(ngx_event_t *rev)
 
             n = c->recv(c, b->last, b->end - b->last);
 
-ngx_log_error(NGX_LOG_INFO, c->log, 0, "=========1========\n");
 			//RTMP_LogHexString(c->log, b->last, n);
-			ngx_log_error(NGX_LOG_INFO, c->log, 0, "=========2========\n");
 
             if (n == NGX_ERROR || n == 0) {
                 ngx_rtmp_finalize_session(s);
